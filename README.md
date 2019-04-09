@@ -14,4 +14,4 @@ We recommend the VPS for https://www.digitalocean.com/ or https://www.vultr.com/
 We also recommend the distribution of Linux: Ubuntu 16.04 LTS. 
 
 
-Credit to Zarcash
+Credit to Gaint Coin
