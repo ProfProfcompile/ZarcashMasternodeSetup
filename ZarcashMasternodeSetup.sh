@@ -41,7 +41,7 @@ rm /root/zarcashd
 rm /root/zarcash-cli
 rm /root/zarcash-qt
 rm /root/zarcash-tx
-rm /root/Zarcash.Windows.D.CLi.TX.v1.2.2.2.zip
+rm /root/ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
 chmod -R 755 /root/zarcash
 chmod -R 755 /root/.zarcash
 
