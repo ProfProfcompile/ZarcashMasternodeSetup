@@ -27,10 +27,10 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
 echo -e "\n\nsetup zarcashd ...\n\n"
 cd ~
-wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.2.2/Zarcash.Windows.D.CLi.TX.v1.2.2.2.zip
+wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.2.2/ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
 sudo apt-get install unzip
-chmod -R 755 Zarcash.Windows.D.CLi.TX.v1.2.2.2.zip
-unzip -o Zarcash.Windows.D.CLi.TX.v1.2.2.2.zip
+chmod -R 755 ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
+unzip -o ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
 sleep 5
 mkdir /root/zarcash
 mkdir /root/.zarcash
