@@ -27,10 +27,10 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
 echo -e "\n\nsetup zarcashd ...\n\n"
 cd ~
-wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.2.2/ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
+wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.3.2/ZarcashLinuxV1.2.3.2ALL.zip
 sudo apt-get install unzip
-chmod -R 755 ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
-unzip -o ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
+chmod -R 755 ZarcashLinuxV1.2.3.2ALL.zip
+unzip -o ZarcashLinuxV1.2.3.2ALL.zip
 sleep 5
 mkdir /root/zarcash
 mkdir /root/.zarcash
@@ -41,7 +41,7 @@ rm /root/zarcashd
 rm /root/zarcash-cli
 rm /root/zarcash-qt
 rm /root/zarcash-tx
-rm /root/ZarcashLINUXUNIX.D.CLI.TX.v1.2.2.2.zip
+rm /root/ZarcashLinuxV1.2.3.2ALL.zip
 chmod -R 755 /root/zarcash
 chmod -R 755 /root/.zarcash
 
