@@ -16,7 +16,7 @@ sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
 echo -e "\n\nupdate & prepare system ...\n\n"
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
+
 sudo apt-get install nano htop git -y
 
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils software-properties-common python-software-properties libzmq5-dev libminiupnpc-dev unzip -y
