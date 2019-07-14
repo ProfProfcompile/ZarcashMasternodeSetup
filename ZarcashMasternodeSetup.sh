@@ -3,7 +3,6 @@
 echo -e "Welcome to all in one Zarcash Masternode Install    ...\n\n"
 sleep 15
 echo -sleep 5e "Stopping any instance of Zarcash Masternodes   ...\n\n"
-./zarcash-cli stop
 sleep 5
 echo -e "create swap ...\n\n"
 sudo touch /var/swap.img
@@ -27,10 +26,10 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
 echo -e "\n\nsetup zarcashd ...\n\n"
 cd ~
-wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.3.2/ZarcashLinuxV1.2.3.2ALL.zip
+wget https://github.com/ProfProfcompile/zarcash/releases/download/v1.2.3.5/ZarcashLinuxV1.2.3.5ALL.zip
 sudo apt-get install unzip
-chmod -R 755 ZarcashLinuxV1.2.3.2ALL.zip
-unzip -o ZarcashLinuxV1.2.3.2ALL.zip
+chmod -R 755 ZarcashLinuxV1.2.3.5ALL.zip
+unzip -o ZarcashLinuxV1.2.3.5ALL.zip
 sleep 5
 mkdir /root/zarcash
 mkdir /root/.zarcash
@@ -41,7 +40,7 @@ rm /root/zarcashd
 rm /root/zarcash-cli
 rm /root/zarcash-qt
 rm /root/zarcash-tx
-rm /root/ZarcashLinuxV1.2.3.2ALL.zip
+rm /root/ZarcashLinuxV1.2.3.5ALL.zip
 chmod -R 755 /root/zarcash
 chmod -R 755 /root/.zarcash
 
