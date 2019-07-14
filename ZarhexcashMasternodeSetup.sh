@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo -e "Welcome to all in one Zarcash Masternode Install    ...\n\n"
+echo -e "Welcome to all in one Zarhexcash Masternode Install    ...\n\n"
 sleep 15
-echo -sleep 5e "Stopping any instance of Zarcash Masternodes   ...\n\n"
+echo -sleep 5e "Stopping any instance of Zarhexcash Masternodes   ...\n\n"
 sleep 5
 echo -e "create swap ...\n\n"
 sudo touch /var/swap.img
