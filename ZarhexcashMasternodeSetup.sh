@@ -67,7 +67,7 @@ echo -e "masternode=1\nmasternodeprivkey=$masternodekey\n\n\n" >> /root/.zarhexc
 
 ./zarhexcashd -daemon
 cd /root/.zarhexcash
-ufw allow 40444
+ufw allow 40445
 
 # output masternode key
 echo -e "Masternode private key: $masternodekey"
