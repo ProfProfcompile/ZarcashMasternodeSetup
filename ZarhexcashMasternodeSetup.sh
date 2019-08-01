@@ -26,10 +26,10 @@ sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
 echo -e "\n\nsetup zarhexcashd ...\n\n"
 cd ~
-wget https://github.com/ProfProfcompile/zarhexcash/releases/download/v1.2.3.5/ZarhexcashLinuxV1.2.3.5ALL.zip
+wget https://github.com/ProfProfcompile/zarhexcash/releases/download/v1.2.3.6/ZarhexcashLinuxV1.2.3.6ALL.zip
 sudo apt-get install unzip
-chmod -R 755 ZarhexcashLinuxV1.2.3.5ALL.zip
-unzip -o ZarhexcashLinuxV1.2.3.5ALL.zip
+chmod -R 755 ZarhexcashLinuxV1.2.3.6ALL.zip
+unzip -o ZarhexcashLinuxV1.2.3.6ALL.zip
 sleep 5
 mkdir /root/zarhexcash
 mkdir /root/.zarhexcash
@@ -40,7 +40,7 @@ rm /root/zarhexcashd
 rm /root/zarhexcash-cli
 rm /root/zarhexcash-qt
 rm /root/zarhexcash-tx
-rm /root/ZarhexcashLinuxV1.2.3.5ALL.zip
+rm /root/ZarhexcashLinuxV1.2.3.6ALL.zip
 chmod -R 755 /root/zarhexcash
 chmod -R 755 /root/.zarhexcash
 
